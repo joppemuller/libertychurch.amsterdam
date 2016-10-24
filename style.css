@@ -1,0 +1,408 @@
+html {
+
+text-rendering: optimizeLegibility !important;
+
+-webkit-font-smoothing: antialiased !important;
+
+}
+
+
+@media (min-width:300px){
+
+p {
+   padding: 5px;
+   font-family: 'Crimson Text', serif;
+   font-size: 1.5rem;
+}
+
+h1 {
+  font-family: "proxima-nova", sans-serif;
+}
+
+h3 {
+  font-family: "proxima-nova", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.logo {
+   height: 150px;
+   width: 150px;
+   margin: 0 auto;
+   margin-top: 100px;
+   background: url('img/LC-Logo.png') center center no-repeat;
+   background-size: contain;
+
+}
+
+#logohome {
+   height: 150px;
+   width: 150px;
+   margin: 0 auto;
+   margin-top: 100px;
+   background: url('img/LC-Logo.png') center center no-repeat;
+   background-size: contain;
+}
+
+.iconlogo img {
+	margin-top: 100px;
+}
+
+
+.quote {
+  font-size: 28px;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+}
+
+.center {
+   position: relative;
+   margin: 10%;
+}
+
+.center p {
+   font-weight: 700;
+}
+
+.eventtext {
+	margin-top: 0px;
+}
+
+.bg {
+   height: 700px;
+}
+
+.bg-home {
+   background: url('img/Liberty-Church-Home-Amsterdam-S.jpg') center center no-repeat;
+   background-size: auto 100%;
+   height: 700px;
+}
+
+.bg-sunday {
+    background: #2278ff;
+    background-size: auto 100%;
+    height: 700px;
+    padding: 0 !important;
+}
+
+.bg-story {
+    background: #2278ff;
+    background-size: auto 100%;
+    height: 700px;
+}
+
+.bg-give {
+    background: #2278ff;
+    background-size: auto 100%;
+    height: 700px;
+}
+
+div.clear {
+   clear: both;
+   height: 1px;
+   overflow: hidden;
+   font-size: 0pt;
+   margin-top: -1px;
+}
+
+.inside-img {
+   text-align: center;
+   height: 100%;
+}
+
+.inside-img img {
+   max-width: 250px;
+   margin-top: 25%;
+}
+
+.textbox {
+  max-width: 100%;
+  background-color: #2278ff;
+  margin: 0 auto;
+  padding: 15px 35px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.textboxnewday {
+  max-width: 100%;
+  background-color: #2278ff;
+  margin: 0 auto;
+  padding: 15px 35px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.textnewdaypad {
+  padding-top: 100px !important;
+}
+
+.textboxsunday {
+	padding-top: 100px !important;
+}
+
+.textboxalign {
+  padding-top: 100px;
+}
+
+.textbox h1 {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 3rem;
+  text-align: left;
+  color: #fff;
+  font-weight: 700;
+}
+
+.textbox p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #fff;
+  padding: 0;
+}
+
+.textbox a {
+  font-weight: 700;
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Menu Pop Up */
+
+.menu {
+  z-index: 9999;
+  position: absolute;
+  margin-top: 0px;
+}
+
+.hamburger {
+
+}
+
+.button {
+  font-size: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  margin-left: 16px;
+}
+
+.button:hover {
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  background: #2278ff;
+  width: 70%;
+  position: relative;
+  text-align: center;
+  padding-bottom: 75px;
+  padding-top: 75px;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 15px;
+    color: #fff;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+}
+
+.popup a {
+  text-decoration: none;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+
+}
+.popup .close:hover {
+  color: #fff;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+}
+
+@media (min-width:700px){
+
+
+
+.inside-img img {
+   max-width: 250px;
+   margin-top: 15%;
+}
+
+.button {
+  margin-left: 25px;
+}
+
+.bg {
+   height: 100vh;
+}
+
+.bg-home {
+   background: url('img/Liberty-Church-Home-Amsterdam-S.jpg') center center no-repeat;
+   background-size: auto 100%;
+   height: 100vh;
+}
+
+.bg-sunday {
+    background: url('img/Liberty-Church-Sunday-Amsterdam.jpg') center center no-repeat;
+    background-size: auto 100%;
+    height: 100vh;
+}
+
+.bg-story {
+    background: url('img/Liberty-Church-Story-Amsterdam.jpg') center center no-repeat;
+    background-size: auto 100%;
+    height: 100vh;
+}
+
+.bg-give {
+    background: url('img/Liberty-Church-Give-Amsterdam.jpg') center center no-repeat;
+    background-size: auto 100%;
+    height: 100vh;
+}
+
+.textbox {
+  max-width: 350px;
+  background-color: #2278ff;
+  margin: 0 auto;
+  padding: 15px 35px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.textboxnewday {
+  max-width: 500px;
+  background-color: #2278ff;
+  margin: 0 auto;
+  padding: 10px 30px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.textboxsunday {
+  padding-top: 15% !important;
+}
+
+.textnewdaypad {
+  padding-top: 50px !important;
+}
+
+.hamburger {
+  width: 150px;
+}
+
+.popup {
+  width: 30%;
+}
+
+}
+
+@media (min-width: 1000px){
+
+.logo {
+	margin-top: 100px;
+}
+
+.iconlogo img {
+	margin-top: 100px;
+}
+
+.textboxalign {
+ 	padding-top: 20%;
+}
+
+.textboxsunday {
+	padding-top: 15% !important;
+}
+
+.textnewdaypad {
+  padding-top: 10% !important;
+}
+
+.center {
+   position: relative;
+   margin: 12%;
+}
+
+.eventtext {
+	margin-top: 50px;
+}
+
+.inside-img img {
+   max-width: 250px;
+   margin-top: 25%;
+}
+
+}
+
+@media (min-width: 1400px){
+
+.logo {
+	margin-top: 200px;
+}
+
+.iconlogo img {
+	margin-top: 100px;
+}
+
+.textboxalign {
+  padding: 25% 0%;
+}
+
+.textboxsunday {
+	padding-top: 20% !important;
+}
+
+
+.center {
+   position: relative;
+   margin: 15%;
+}
+
+.eventtext {
+	margin-top: 100px;
+}
+
+.menu {
+  z-index: 9999;
+  position: absolute;
+  margin-top: 15px;
+}
+
+.button {
+  margin-left: 40px;
+}
+
+}
